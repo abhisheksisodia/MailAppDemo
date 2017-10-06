@@ -2,6 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
     android:background="@drawable/bg_list_row"
     android:clickable="true"
     android:focusable="true"
@@ -28,7 +29,8 @@
             android:lines="1"
             android:textColor="@color/from"
             android:textSize="@dimen/msg_text_primary"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            tools:text="Sender name"/>
 
         <TextView
             android:id="@+id/txt_primary"
@@ -38,7 +40,8 @@
             android:lines="1"
             android:textColor="@color/subject"
             android:textSize="@dimen/msg_text_secondary"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            tools:text="This is the subject of the email"/>
 
         <TextView
             android:id="@+id/txt_secondary"
@@ -47,7 +50,8 @@
             android:ellipsize="end"
             android:lines="1"
             android:textColor="@color/message"
-            android:textSize="@dimen/msg_text_secondary" />
+            android:textSize="@dimen/msg_text_secondary"
+            tools:text="This is the body of the email"/>
 
     </LinearLayout>
 
@@ -102,7 +106,8 @@
         android:layout_alignParentRight="true"
         android:textColor="@color/timestamp"
         android:textSize="@dimen/timestamp"
-        android:textStyle="bold" />
+        android:textStyle="bold"
+        tools:text="9:00 AM"/>
 
     <ImageView
         android:id="@+id/icon_star"
