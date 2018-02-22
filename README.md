@@ -1,6 +1,11 @@
 # MailAppDemo
 Gmail like inbox using RecyclerView that contains the complex list design with interactive animations.
 
+## Screenshots
+![Output sample](https://raw.githubusercontent.com/abhisheksisodia/MailAppDemo/master/markAsImportant.gif)
+
+![Output sample](https://raw.githubusercontent.com/abhisheksisodia/MailAppDemo/master/selectAndDelete.gif)
+
 ## Components
 
 ### RecyclerView
